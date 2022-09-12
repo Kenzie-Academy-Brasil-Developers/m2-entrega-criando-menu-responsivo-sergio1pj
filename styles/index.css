@@ -26,7 +26,7 @@ nav {
     position: absolute;
     list-style-type: none;
     top: 8vh;
-    left: 0;
+    left: 16px;
     width: 100vw;
     height: 84vh;
     background-color: var(--color-mode);
