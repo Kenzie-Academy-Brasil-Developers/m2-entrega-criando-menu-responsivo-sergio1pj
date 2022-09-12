@@ -28,7 +28,7 @@ nav {
     top: 8vh;
     left: 0;
     width: 100vw;
-    height: 92vh;
+    height: 84vh;
     background-color: var(--color-mode);
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
