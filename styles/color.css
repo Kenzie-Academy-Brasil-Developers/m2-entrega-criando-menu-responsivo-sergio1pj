@@ -40,3 +40,9 @@
 .bg-color-grey-6{
     background-color: var(--color-grey-6);
 }
+.color-mode {
+    color: var(--color-mode);
+}
+.bg-color-mode {
+    background-color: var(--color-mode);
+}
