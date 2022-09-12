@@ -54,8 +54,19 @@ nav {
     .menu {
         display: none;
     }
+    .nav__list {
+        position: static;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        transform: translateX(0);
+        background-color: var(--color-grey-4);
+       
+    }
     .nav__list li {
         letter-spacing: 3px;
         margin-left: 32px;
+        opacity: 1;
     }
 }
