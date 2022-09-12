@@ -1,0 +1,12 @@
+.menu {
+    display: block;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 22px;
+    height: 4px;
+    background-color: var(--color-grey-3);
+    margin: 12px;
+    transition: 0.4s;
+}

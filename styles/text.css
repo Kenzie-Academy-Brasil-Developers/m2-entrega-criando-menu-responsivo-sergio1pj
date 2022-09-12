@@ -8,7 +8,7 @@
     line-height: var(--line-weight-title-2);
     font-family: var(--font-family-1);
 }
-.text-1 {
+.text-1, a {
     font-size: var(--font-size-text-1);
     line-height: var(--line-weight-text-1);
     font-family: var(--font-family-1);

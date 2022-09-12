@@ -15,4 +15,5 @@
 }
 .input-group input::placeholder {
     color: var(--color-grey-3);
+    font-weight: 400;
 }
