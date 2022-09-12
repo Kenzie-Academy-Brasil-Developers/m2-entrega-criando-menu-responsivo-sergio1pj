@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    gap:20px;
     position: absolute;
     top: 92vh;
     left: 16px;
