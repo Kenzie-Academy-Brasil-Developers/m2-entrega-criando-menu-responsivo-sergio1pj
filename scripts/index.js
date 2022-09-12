@@ -1,18 +1,18 @@
 class Menu {
     static animateLinks() {
         const li = document.querySelectorAll('.nav__list li');
-        li.forEach((link, index) => {
+        li.forEach((link) => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                link.style.animation = "navLinkFade 0.5s ease forwards 0.3s";
             }
-        });     
+        });
     }   
     static handleClick() {
         const nav = document.querySelector('.nav__list');
         nav.classList.toggle('active');
-        this.animateLinks();
+        Menu.animateLinks();
     }
     static addClickEvent() {
         const menu = document.querySelector('.menu');
